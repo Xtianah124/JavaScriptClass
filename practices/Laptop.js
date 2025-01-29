@@ -2,5 +2,5 @@ const laptop = {
 	brand: "Dell",
 	price: 1200
 	}
-laptop.add(colour: "Blue");
+const.colour( "Blue");
 console.log(laptop);
