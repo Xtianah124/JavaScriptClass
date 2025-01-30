@@ -10,38 +10,24 @@ const person = {
 console.log(person);
 
 
-console.log("  2");
-const car = {
-	make: "Toyoto",
-	model: "Camry",
-	year: "2021"
-	}
-function cars(car){
-	car.cars = "make: " + car.make + ", " + "model: " + car.model + ", " + " year: " + car.year;
-	return car;
-}
-console.log(cars(car));
-
-
 console.log("  3");
-const laptop = {
-	brand: 'Dell',
-	price: 1200
-	}
-
-laptop.colour = "Blue"
-console.log(laptop)
-
-
-
-console.log("  4");
 const phone = {
 	brand: "Apple",
 	price: 999
-}
+	}
 phone.price = 1500
 console.log(phone);
 
+
+console.log("  4");
+const car = {
+	make: 'Toyota',	
+	model: 'Camry',
+	year: 2021
+	}
+
+car.colour = "Blue"
+console.log(car)			
 
 
 console.log("  5");
@@ -76,17 +62,5 @@ const book = {
 	author: "F.Scott Fitzgerald",
 	yearPublished: 1925
 	};
-
-const{title ,author} = book;
-console.log(title +" " + "by" + " " +author);
-
-console.log("  8");
-const profile = {
-	name: "Sam",
-	age: 40,
-	profession: "Engineer"
-}
-const{name, age} = profile;
-console.log("name: " + name + " " + "age: " + age);
 
 	

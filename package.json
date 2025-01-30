@@ -1,6 +1,18 @@
 {
+  "name": "javascriptclass",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "Arithmetic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
+    "jest": "^29.7.0",
     "prompt": "^1.3.0",
     "prompt-sync": "^4.2.0"
-  }
+  },
+  "devDependencies": {}
 }
